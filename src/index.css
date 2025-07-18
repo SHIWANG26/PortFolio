@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+}
+
+.dark {
+  --primary-color: #60a5fa;
+  --secondary-color: #4ade80;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pop-effect {
+  transition: transform 0.3s ease-in-out;
+}
+
+.pop-effect:hover {
+  transform: scale(1.05);
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pop-effect {
+  transition: transform 0.3s ease-in-out;
+}
+
+.pop-effect:hover {
+  transform: scale(1.05);
+}
