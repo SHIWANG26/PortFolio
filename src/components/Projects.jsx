@@ -6,13 +6,18 @@ const projects = [
     name: 'ResumeDataExtractor',
     description: 'A resume parsing engine built with Java (AWT, Swing, JDBC, MySQL) using MVC architecture. Integrated Apache OpenNLP for entity recognition and PDFBox for text extraction, capable of processing hundreds of resumes in batch.',
     technologies: ['Java', 'AWT', 'Swing', 'JDBC', 'MySQL', 'Apache OpenNLP', 'Apache PDFBox', 'MVC'],
-    link: 'https://github.com/shiwangrai/ResumeDataExtractor'
+    link: 'https://github.com/SHIWANG26/ResumeExtractor'
   },
   {
     name: 'BankManagementSystem',
     description: 'A Java-based banking system using JEE, Apache OpenNLP API, and Apache PDFBox. Features a GUI with MWTString and JOSO for database interactions, implementing MVC and OOP principles for modular and bug-free code.',
     technologies: ['Java JEE', 'Apache OpenNLP', 'Apache PDFBox', 'Tailwind CSS', 'Maven', 'MVC'],
-    link: 'https://github.com/shiwangrai/BankManagementSystem'
+    link: 'https://github.com/SHIWANG26/Bank-Management-System'
+  },{
+    name: 'vidSynth',
+    description: 'A personal portfolio website showcasing my projects and skills, built with React, Tailwind CSS, and Framer Motion for animations. Features a responsive design and smooth transitions.',
+    technologies: ['Next.js', 'Tailwind CSS', 'ImageKit Api', 'Context API', 'TypeScript'],
+    link: 'https://github.com/SHIWANG26/vidSynth'
   }
 ];
 

@@ -5,6 +5,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
   const [theme, setTheme] = useState('light');
@@ -24,12 +25,7 @@ const App = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
-      {/* ✅ Pass toggleTheme and theme to Header */}
       <Header toggleTheme={toggleTheme} theme={theme} />
-
-      {/* ❌ Remove this — it was previously used directly */}
-      {/* <ThemeToggle toggleTheme={toggleTheme} theme={theme} /> */}
-
       <motion.main
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -41,6 +37,7 @@ const App = () => {
         <Projects />
         <Contact />
       </motion.main>
+      <Analytics />
     </div>
   );
 };
