@@ -27,7 +27,7 @@ const Header = ({ toggleTheme, theme }) => {
         <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 space-y-2 sm:space-y-0">
           <div className="flex space-x-4 justify-center">
             <a
-              href="https://www.linkedin.com/in/shiwang-kumar-rai-6b9b0a1b/"
+              href="https://www.linkedin.com/in/shiwang-kumar-rai/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[var(--primary-color)] hover:text-[var(--secondary-color)] pop-effect"
